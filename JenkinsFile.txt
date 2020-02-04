@@ -1,0 +1,4 @@
+def varsFile = "C:\\Users\\APal\\Desktop\\JenkinsTest\\Export.txt"
+def content = readFile varsFile 
+
+echo $content
